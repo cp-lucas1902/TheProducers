@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let conteudo of conteudos">
+            <div class="card" style="width: 18rem;">
+               <!-- <img class="card-img-top" [src]="conteudo.imagens[0]" alt="Card image cap"> -->
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{{ conteudo.site }}">{{ conteudo.titulo}}</a></h5>
+                  <p class="card-text">{{ conteudo.descricao_oferta}}</p>
+                  <h6>Valor: <span class="badge badge-success">Gratuito</span></h6>
+                  <a href="#" class="btn btn-primary">Saiba Mais</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

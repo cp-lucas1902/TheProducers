@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopoComponent } from './topo/topo.component';
+import { PainelComponent } from './painel/painel.component';
+import { RodapeComponent } from './rodape/rodape.component';
+import { ConteudoComponent } from './conteudo/conteudo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopoComponent,
+    PainelComponent,
+    RodapeComponent,
+    ConteudoComponent
   ],
   imports: [
     BrowserModule,

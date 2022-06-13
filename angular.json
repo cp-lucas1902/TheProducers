@@ -94,9 +94,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "../node_modules/jquery/dist/css/jquery.min.css",
+              "../node_modules/tether/dist/css/tether.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../node_modules/jquery/dist/js/jquery.min.js"
+            ]
           }
         }
       }
